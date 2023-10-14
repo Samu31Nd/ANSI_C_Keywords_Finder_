@@ -26,7 +26,7 @@ public class Function {
     }
 
     public void recorrido(char c){
-        if(c == '\0'){ y++; return; }
+        if(c == '\n'){ y++; x = 1; return; }else if(c == ' ') return;
         x++;
         moved = false;
 
